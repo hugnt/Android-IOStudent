@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="Tasks" />
+    <Button
+        android:id="@+id/btnSelectRingtone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Select Ringtone" />
+    <Button
+        android:id="@+id/btnSelectMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Select Music" />
+    <Button
+        android:id="@+id/btnRemind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Remind me after time..." />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_gravity="center"
+        android:text="Remind me after time..."
+        />
+
+    <ListView
+        android:id="@+id/lstViewSelected"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        />
+
+    <Button
+        android:id="@+id/btnFocus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        android:text="Focus mode" />
+
+
+
+</FrameLayout>

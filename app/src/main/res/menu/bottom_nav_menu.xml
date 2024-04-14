@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navTasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:icon="@drawable/baseline_today_24"
+        android:title="Tasks" />
+
+    <item
+        android:id="@+id/navTaskLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:icon="@drawable/baseline_library_books_24"
+        android:title="Task Line" />
+
+    <item
+        android:id="@+id/navHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:icon="@drawable/baseline_history_24"
+        android:title="History" />
+
+    <item
+        android:id="@+id/navSetting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="Settings" />
+
+</menu>
